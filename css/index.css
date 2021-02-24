@@ -1,0 +1,427 @@
+/*------------------------*/
+/*   　　共通のスタイル      */
+/*------------------------*/
+html {
+  height: 100%;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a :hover {
+  opacity: 0.7;
+  transition: 0, 3s;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body {
+  color: #333333;
+  height: 100%;
+}
+
+.mgb-15 {
+  margin: 5px;
+}
+
+.common-btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.contact-btn {
+  background: none;
+  border: 1px solid#cd0323;
+  color: #fff;
+  background: #cd0323;
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 1;
+}
+
+/*------------------------*/
+/*         header         */
+/*------------------------*/
+#top-header {
+  height: 70px;
+  line-height: 70px;
+  background: #fff;
+  position: relative;
+  top:0;
+  position: fixed;
+  width:100%;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #000;
+  line-height: 70px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #000;
+  font-weight:bold;
+}
+
+#firstview {
+  height: 85%;
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.catchcopy-box {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  right: 5%;
+}
+
+.catchcopy {
+  font-size: 50px;
+}
+
+.catchcopy-text {
+  font-size: 18px;
+}
+
+/*------------------------*/
+/*         mission        */
+/*------------------------*/
+.mission {
+  position: relative;
+  background: #222323;
+  z-index: 999;
+}
+
+.mission-content {
+  padding: 10%;
+}
+
+.mission_title,
+.mission_text {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.mission_title {
+  font-size: 30px;
+}
+
+/*------------------------*/
+/*         service        */
+/*------------------------*/
+.service {
+  background: #fff;
+  margin-bottom: 10%;
+}
+
+.service-title {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+
+.service-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  width: 40%;
+  padding: 10px;
+}
+
+/*------------------------*/
+/*         news           */
+/*------------------------*/
+.news {
+  background: #222323;
+  height: 100%;
+}
+.news-inner-wrap {
+  padding: 10%;
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.news-text {
+  font-size: 30px;
+}
+
+.news-btn {
+  width: 160px;
+  font-size: 14px;
+  padding: 7px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.news-list {
+  margin-top: 20px;
+  background: #fff;
+}
+
+.news-item {
+  display: inline-flex;
+  padding: 20px;
+  width: 100%;
+}
+
+.news-date {
+  margin-right: 10px;
+}
+
+/*------------------------*/
+/*        blog            */
+/*------------------------*/
+
+.blog {
+  padding: 80px 0;
+}
+
+.blog-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.blog-item-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.blog-box {
+  width: 25%;
+  margin: 10px;
+}
+
+/*------------------------*/
+/*        conpany         */
+/*------------------------*/
+
+.conpany-recruit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  /* padding: 30px 0; */
+  text-align: center;
+}
+
+.conpany {
+  width: 50%;
+  background: #cd0323;
+  padding: 100px 0;
+}
+
+.recruit {
+  width: 50%;
+  background: black;
+  padding: 100px 0;
+}
+
+.conpany-text,
+.recruit-text {
+  color: #fff;
+}
+
+/*------------------------*/
+/*        contact         */
+/*------------------------*/
+.contact {
+  background: #f5f6f9;
+  padding: 100px 0;
+}
+
+.contact-wrap {
+  text-align: center;
+  margin: 80px auto 0;
+  padding: 80px 0;
+  background: #f5f6f9;
+}
+
+.contact-text {
+  font-size: 30px;
+}
+
+.contact-text2 {
+  text-align: center;
+  margin: 15px 0;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+/*------------------------*/
+/*        footer          */
+/*------------------------*/
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  background: #222222;
+  color: #fff;
+}
+
+.footer-inner-wrap {
+  width: 85%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  margin: 0 auto;
+}
+
+.footer-logo {
+  margin: 0 auto;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+
+.footer-nav a {
+  color: #fff;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro",
+    "Yu Gothic Medium", "游ゴシック Medium", sans-serif;
+  line-height: 1.6;
+}
+
+ /* タブレット縦以下： */
+
+@media screen and (max-width: 768px) {
+  /*------------------------*/
+  /*        header          */
+  /*------------------------*/
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 11;
+    top: 5px;
+    right: 20px;
+    transition: 0.4s;
+  }
+
+  #hamburger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #000;
+    transition: 0.8s;
+    font-size: 16px;
+  }
+
+  #hamburger span:nth-of-type(1) {
+    top: 15px; /* ハンバーガーメニューの1本目の棒 */
+  }
+
+  #hamburger span:nth-of-type(2) {
+    top: 30px;
+  }
+
+  #hamburger span:nth-of-type(3) {
+    top: 45px;
+  }
+
+  .header-nav {
+    display: none; /* デスクトップのナビを消す */
+  }
+
+  /*------------------------*/
+  /*        service         */
+  /*------------------------*/
+  .service-box {
+    width: 85%;
+  }
+
+  /*------------------------*/
+  /*        blog            */
+  /*------------------------*/
+  .blog-box {
+    width: 80%;
+    margin: 10px;
+  }
+
+  /*------------------------*/
+  /*        footer          */
+  /*------------------------*/
+  .footer-inner-wrap {
+    width: 85%;
+    justify-content: space-around;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+  }
+
+  .footer-nav li {
+    display: block;
+  }
+
+  .footer-nav-item {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .footer-nav-item span {
+    color: #222222;
+  }
+}
+/* スマートフォン横以下： */
+
+/* @media screen and (max-width : 468px){} */ 
