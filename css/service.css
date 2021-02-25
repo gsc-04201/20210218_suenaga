@@ -120,13 +120,13 @@ body {
 /*         service        */
 /*------------------------*/
 .service-content {
-  padding: 80px 0;
-  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .service-box {
   display: flex;
   padding: 20px 0;
+  margin:20px 70px;
   border-top: 1px solid #000;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -259,7 +259,7 @@ body {
   /*        service         */
   /*------------------------*/
   .service-content {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
   }
 

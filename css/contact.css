@@ -123,13 +123,13 @@ body {
 /*------------------------*/
 
 .contact-wrap {
-  padding: 80px 0;
+  padding: 50px 0;
   width: 90%;
   margin: 0 auto;
 }
 
 .contact-form {
-  width: 70%;
+  width: 80%;
   margin:0 auto;
 }
 
@@ -250,6 +250,14 @@ body {
   .header-nav {
     display: none; /* デスクトップのナビを消す */
   }
+
+  /*------------------------*/
+  /*         contact        */
+  /*------------------------*/
+  .contact-form {
+  width: 90%;
+  }
+
 
   /*------------------------*/
   /*        footer          */
